@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<script src="AdaugareAnunt.js"></script>
+
+<title>
+Adaugare anunt
+</title>
+
+</head>
+
+<body>
+
+<h1> Adaugare anunt </h1>
+
+<hr>
+
+<form action="/action_page.php" method="get" id="form">
+
+<label for="Titlu"> Titlu </label>
+<input type="text" name="titlu" maxlength="70" id="Titlu">
+<small> <b id="wordCounterTitlu"> 70 </b> Numar de caractere ramase </small>
+
+<label> Categorie </label>
+<select>
+<option value="Auto, moto si ambarcatiuni"> Auto, moto si ambarcatiuni </option>
+<option value="Imobiliare"> Imobiliare </option>
+<option value="Electronice si electrocasnice"> Electronice si electrocasnice </option>
+<option value="Moda si frumusete"> Moda si frumusete </option>
+<option value="Casa si gradina"> Casa si gradina </option>
+<option value="Mama si copilul"> Mama si copilul </option>
+<option value="Sport, timp liber, arta"> Sport, timp liber, arta </option>
+<option value="Animale de companie"> Animale de companie </option>
+<option value="Agro si industrie"> Agro si industrie </option>
+<option value="Servicii, afaceri, echipamente firme"> Servicii, afaceri, echipamente firme </option>
+</select>
+
+<hr>
+
+<label for="Descriere"> Descriere </label>
+<textarea name="descreire" rows="10" cols="50" maxlength="4096" id="Descriere"></textarea>
+<small> <b id="wordCounterDescriere"> 4096 </b> Numar de caractere ramase </small>
+
+<label> Fotografii </label>
+<small> Alege poze clare, din unghiuri diferite, ca sa vinzi sigur.
+Poti adauga maxim 8 poze
+Te rugam sa adaugi poza de maxim 5 MB </small>
+<input type="file" class="Fotografie">
+<input type="file" class="Fotografie">
+<input type="file" class="Fotografie">
+<input type="file" class="Fotografie">
+<input type="file" class="Fotografie">
+<input type="file" class="Fotografie">
+<input type="file" class="Fotografie">
+<input type="file" class="Fotografie">
+
+<h1> Date de contact </h1>
+
+<hr>
+
+<label for="Oras"> Orasul sau localitatea </label>
+<input type="text" name="oras" id="Oras">
+
+<hr>
+
+<label for="Contact"> Persoana de contact </label>
+<input type="text" name="persContact" id="Contact">
+
+<label for="Email"> Adresa de email </label>
+<input type="text" name="email" id="Email">
+
+<label for="Telefon"> Numar de telefon </label>
+<input type="text" name="telefon" id="Telefon">
+
+<hr>
+
+<button type="submit"> Posteaza anunt </button>
+
+</form>
+
+<button type="button"><a href="#"> Home </a></button>
+
+<footer>
+
+</footer>
+
+</body>
+
+</html>
