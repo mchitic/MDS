@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<meta charset="UTF-8">
+
+<script src="AdaugareCategorie.js"></script>
+
+<title>Adaugare categorie</title>
+
+</head>
+
+<body>
+
+<h1> Adaugare categorie </h1>
+
+<hr>
+
+<form action="/action_page.php" method="get" id="form">
+
+<label for="Titlu"> Titlu </label>
+<input type="text" name="titlu" maxlength="70" id="Titlu">
+<small> <b id="wordCounterTitlu"> 70 </b> Numar de caractere ramase </small>
+
+<hr>
+
+<label for="Descriere"> Descriere </label>
+<textarea name="descreire" rows="10" cols="50" maxlength="4096" id="Descriere"></textarea>
+<small> <b id="wordCounterDescriere"> 4096 </b> Numar de caractere ramase </small>
+
+<button type="submit"> Posteaza categorie </button>
+
+</form>
+
+<button type="button"><a href="#"> Home </a></button>
+
+</body>
+
+</html>
